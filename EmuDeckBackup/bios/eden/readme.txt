@@ -1,0 +1,1 @@
+Copy your keys in the keys subfolder and the firmware in the firmware folder. No further action is needed.

@@ -1,0 +1,1 @@
+Copy here your keys. Firmware must be installed inside the Ryujinx App, not in this folder!

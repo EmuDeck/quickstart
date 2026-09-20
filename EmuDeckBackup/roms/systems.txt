@@ -1,14 +1,3 @@
-# EmuDeck QuickStart
-
-This is a template to quick start your EmuDeck installation from other device before installation. Just download this repository in an external USB device that you'll be able to automatically import later in the EmuDeck installation, just make sure the EmuDeckBackup folder is the root of that device.
-
-This template can be used for both Windows and Linux.
-
-## Roms (Games)
-
-Put your roms in the **EmuDeckBackup/roms** folder, each folder is used for its corresponding system, here's a cheatsheet so you can know where you have to copy your games:
-
-```
 3do: 3DO
 ags: Adventure Game Studio Game Engine
 amiga: Commodore Amiga
@@ -162,37 +151,7 @@ wonderswancolor: Bandai WonderSwan Color
 x1: Sharp X1
 x68000: Sharp X68000
 xbox: Microsoft Xbox
-xbox360/roms: Microsoft Xbox 360
+xbox360: Microsoft Xbox 360
 zmachine: Infocom Z-machine
 zx81: Sinclair ZX81
 zxspectrum: Sinclair ZX Spectrum
-```
-
-## Bios & Firmwares
-
-Some systems needs bios to run. You need to place them in the **EmuDeckBackup/bios** folder, some bios goes directly in that folder, some have special subfolders:
-
-### PlayStation 1 and PlayStation 2 Bios
-
-```
-bios: PlayStation 1 Bios (don't create subfolders)
-bios: PlayStation 2 Bios (don't create subfolders)
-```
-
-### PlayStation 3 Firmware
-
-You can download the latest firmware from Sony [here](https://www.playstation.com/support/hardware/ps3/system-software/), you'll need to install it from the RPCS3 emulator later, you can store it in the following path to make it easier to locate later:
-
-```
-bios/ps3: PlayStation 3 Firmware
-```
-
-### Switch Keys and Firmware
-
-Switch emulation needs both firmware and keys.
-
-```
-bios/ryujinx/keys: Switch Keys (Ryujinx emulator, the firmware must be installed using the emulator)
-bios/eden/keys: Switch Keys (Eden emulator)
-bios/eden/firmware: Switch Firmware(Eden emulator)
-```
